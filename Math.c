@@ -2,6 +2,10 @@
 
 int main()
 {
+    /*What is a variables*/
+    /*A name given to a memory location*/
+    /*Declared by writitng type variable_name*/
+    /*Initialized and decleared by type type variable_name = value*/
     int a, b, Add, sub, Multi;
     float div;
     printf("Enter the first letter \n");

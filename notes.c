@@ -37,10 +37,30 @@ int main()
       unsigned char 	           1  	              0 to 255  	      %c 
       float  	                   4  	                         	      %f  
       double  	                   8                        	 	     %lf 
-      long double      	          16                          	 	     %Lf */
+      long double      	          16                            	 	     %Lf */
 
       printf("%hd\n",sizeof(short int));
 
-    /**/
-    return 0;
+    /*What is an Operator*/
+    /*Arithmetic operator = +,-, *, /, % 
+      Relation operator ==, !=, >, <, >=, <=
+      Logical operator && (AND), || (OR), !(NOT)
+      Bitwise operator a, b, a&b, a|b, a^b (XOR)
+      Assignment operator =, +=, -=, *=, /= 
+      Miscellaneous operator sizeof(), &(return the operator of variable), *(pointer), ?;(condition)
+      Precedence operator 
+        In the programming language, the associativity of an operator is a properitty of an operator is a properity that
+        determine the how operators of the same precedence are grouped in the absence of parentheses.*/
+     int a, b;
+     a = 6;
+     b = 6;
+     printf("a + b = %d\n",a + b);
+     printf("a - b = %d\n",a - b);
+     printf("a * b = %d\n",a * b);
+     printf("a / b = %d\n",a / b);
+     printf("a % b = %d\n",a % b);
+
+     
+        return 0;
+
 }
