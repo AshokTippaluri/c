@@ -48,7 +48,7 @@ int main()
       Bitwise operator a, b, a&b, a|b, a^b (XOR)
       Assignment operator =, +=, -=, *=, /= 
       Miscellaneous operator sizeof(), &(return the operator of variable), *(pointer), ?;(condition)
-      Precedence operator 
+      Precedence operator - 
         In the programming language, the associativity of an operator is a properitty of an operator is a properity that
         determine the how operators of the same precedence are grouped in the absence of parentheses.*/
      int a, b;
